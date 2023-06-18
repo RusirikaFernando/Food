@@ -68,5 +68,70 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mr1" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="279dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/pinkrec"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="312dp"
+        android:background="#00000000"
+        android:contentDescription="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_exposure_plus_1_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="54dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="108dp"
+        android:background="#00000000"
+        android:contentDescription="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_remove_circle_outline_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="347dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="552dp"
+        android:background="#00000000"
+        android:contentDescription="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pinkrec2" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="132dp"
+        android:background="#00000000"
+        android:contentDescription="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

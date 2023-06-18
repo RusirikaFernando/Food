@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homepg2">
+    tools:context=".homepg6">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout5"
@@ -71,7 +71,7 @@
         android:layout_marginTop="236dp"
         android:background="#EDA1A1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout5"
         app:srcCompat="@drawable/marigold" />
 
     <ImageView
@@ -83,16 +83,41 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/rest" />
 
-    <LinearLayout
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="230dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="668dp"
+        android:background="#00000000"
+        android:contentDescription="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pinkrec2" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="676dp"
+        android:layout_marginEnd="136dp"
+        android:text="View Cart"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="413dp"
-        android:layout_height="453dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        android:layout_height="386dp"
+        android:layout_marginTop="276dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="411dp"
+            android:layout_height="384dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -100,30 +125,31 @@
                 android:orientation="vertical" >
 
                 <ImageButton
-                    android:id="@+id/imageButton34"
+                    android:id="@+id/imageButton45"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/mr1" />
 
                 <ImageButton
-                    android:id="@+id/imageButton37"
+                    android:id="@+id/imageButton46"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/mr2" />
 
                 <ImageButton
-                    android:id="@+id/imageButton42"
+                    android:id="@+id/imageButton47"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/mr1" />
+                    app:srcCompat="@drawable/mr2" />
 
                 <ImageButton
-                    android:id="@+id/imageButton43"
+                    android:id="@+id/imageButton48"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/mr2" />
             </LinearLayout>
         </ScrollView>
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
