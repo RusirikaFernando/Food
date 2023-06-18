@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="409dp"
+        android:layout_height="148dp"
+        android:background="#EA91CA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="159dp"
+            android:layout_height="86dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/delivery" />
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="99dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="84dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/activity" />
+
+        <ImageButton
+            android:id="@+id/imageButton20"
+            android:layout_width="94dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/addtocart" />
+
+        <ImageButton
+            android:id="@+id/imageButton21"
+            android:layout_width="89dp"
+            android:layout_height="66dp"
+            android:layout_marginBottom="12dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/fav" />
+
+        <ImageButton
+            android:id="@+id/imageButton22"
+            android:layout_width="81dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="16dp"
+            android:background="#00000000"
+            android:contentDescription="no"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/search" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="212dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="152dp"
+        android:background="#00000000"
+        android:contentDescription="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/explore" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="112dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="548dp"
+        android:background="#00000000"
+        android:contentDescription="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/viewall" />
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="184dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton32"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/burger"
+                android:background="#00000000"
+                android:contentDescription="no"/>
+
+            <ImageButton
+                android:id="@+id/imageButton35"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/pizza"
+                android:background="#00000000"
+                android:contentDescription="no"/>
+            <ImageButton
+                android:id="@+id/imageButton36"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/juice"
+                android:background="#00000000"
+                android:contentDescription="no"/>
+            <ImageButton
+                android:id="@+id/imageButton33"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/burger"
+                android:background="#00000000"
+                android:contentDescription="no"/>
+
+            <ImageButton
+                android:id="@+id/imageButton30"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/pizza"
+                android:background="#00000000"
+                android:contentDescription="no"
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="364dp"
+        android:layout_marginTop="348dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/imageButton38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#14000000"
+                    android:contentDescription="no"
+                    app:srcCompat="@drawable/rest1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#14000000"
+                    android:contentDescription="no"
+                    app:srcCompat="@drawable/rest2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/rest1"
+                    android:background="#14000000"
+                    android:contentDescription="no"/>
+
+                <ImageButton
+                    android:id="@+id/imageButton41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/rest2"
+                    android:background="#14000000"
+                    android:contentDescription="no"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
