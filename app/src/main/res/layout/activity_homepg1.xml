@@ -25,6 +25,7 @@
             android:layout_marginEnd="12dp"
             android:background="#00000000"
             android:contentDescription="no"
+            android:onClick="backbutton1"
             app:layout_constraintEnd_toStartOf="@+id/imageButton18"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -117,6 +118,7 @@
         android:layout_marginTop="552dp"
         android:background="#00000000"
         android:contentDescription="no"
+        android:onClick="add1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/pinkrec2" />
@@ -129,6 +131,7 @@
         android:layout_marginBottom="132dp"
         android:background="#00000000"
         android:contentDescription="no"
+        android:onClick="add1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/pp" />

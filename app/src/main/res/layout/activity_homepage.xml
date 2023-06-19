@@ -112,51 +112,41 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/imageButton32"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/burger"
-                android:background="#00000000"
-                android:contentDescription="no"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/imageButton35"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/pizza"
-                android:background="#00000000"
-                android:contentDescription="no"/>
+                <ImageButton
+                    android:id="@+id/imageButton33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pizza"
+                    android:contentDescription="no"/>
 
-            <ImageButton
-                android:id="@+id/imageButton36"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="#00000000"
-                android:contentDescription="no"
-                app:srcCompat="@drawable/juice" />
+                <ImageButton
+                    android:id="@+id/imageButton32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/juice"
+                    android:contentDescription="no"/>
 
-            <ImageButton
-                android:id="@+id/imageButton33"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/burger"
-                android:background="#00000000"
-                android:contentDescription="no"/>
+                <ImageButton
+                    android:id="@+id/imageButton30"
+                    android:layout_width="152dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/burger"
+                    android:contentDescription="no"/>
+            </LinearLayout>
+        </ScrollView>
 
-            <ImageButton
-                android:id="@+id/imageButton30"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/pizza"
-                android:background="#00000000"
-                android:contentDescription="no"
-        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -203,10 +193,10 @@
                 <ImageButton
                     android:id="@+id/imageButton41"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/rest2"
+                    android:layout_height="184dp"
                     android:background="#14000000"
-                    android:contentDescription="no"/>
+                    android:contentDescription="no"
+                    app:srcCompat="@drawable/rest2" />
             </LinearLayout>
         </ScrollView>
 
