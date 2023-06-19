@@ -24,6 +24,7 @@
             android:layout_marginTop="28dp"
             android:background="#00000000"
             android:contentDescription="no"
+            android:onClick="mapbtn"
             app:layout_constraintEnd_toStartOf="@+id/imageButton19"
             app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toStartOf="parent"
